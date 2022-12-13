@@ -11,6 +11,7 @@ pipeline {
       steps {
         echo "hello $name"
          echo "Hello ${params.PERSON}"
+          echo "Choice: ${params.COURSE}"
       }
     }
 
