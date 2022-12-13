@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+    name = 'chhaya'
+  }
   stages {
     stage('build') {
       steps {
@@ -14,7 +17,5 @@ pipeline {
     }
 
   }
-  environment {
-    name = 'chhaya'
-  }
+  
 }
